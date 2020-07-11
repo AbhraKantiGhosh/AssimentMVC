@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Careers</title>
+</head>
+<body>
+    @Html.Partial("MyHeader")
+    <div>
+        <img src="~/download.jpg" hight="200" width="200" align="middle" />
+        <h2>Lot of opprtunities to come here,Please stay tuned </h2>
+    </div>
+  select UserID  @Html.DropDownList("userids")
+
+    @Html.ActionLink("Back To Home", "Index")
+</body>
+</html>
